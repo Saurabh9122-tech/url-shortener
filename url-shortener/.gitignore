@@ -1,33 +1,68 @@
-HELP.md
+# ===================================================================
+# Sensitive Credentials & Local Environment Files
+# ===================================================================
+application-local.properties
+application-dev.properties
+*.env
+.env*
+secrets/
+
+# ===================================================================
+# Maven & Build Outputs
+# ===================================================================
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# ===================================================================
+# IntelliJ IDEA (.idea)
+# ===================================================================
+.idea/
 *.iml
+*.iws
 *.ipr
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# If you prefer to keep code style/run configs in Git, ignore specific IDEA files instead:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/usage.statistics.xml
+# .idea/dictionaries
+# .idea/shelf
 
-### VS Code ###
+# ===================================================================
+# Eclipse IDE
+# ===================================================================
+.settings/
+.bin/
+.building/
+.buildpath
+.classpath
+.project
+
+# ===================================================================
+# VS Code
+# ===================================================================
 .vscode/
+
+# ===================================================================
+# Operating System & Temp Files
+# ===================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.log
