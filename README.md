@@ -6,9 +6,9 @@ A full-stack URL shortener application with click tracking and analytics built u
 
 ## 📸 Application Screenshots
 
-![URL Shortener Dashboard](.https://github.com/Saurabh9122-tech/url-shortener/blob/main/url-shortener/Screenshot%202026-08-03%20155439.png
+![URL Shortener Dashboard](./url-shortener/blob/main/url-shortener/Screenshot%202026-08-03%20155439.png
 )
-*Figure 1: Shortening URLs and viewing real-time click analytics on the dashboard.*
+
 
 ---
 
@@ -36,14 +36,14 @@ A full-stack URL shortener application with click tracking and analytics built u
 
 ```text
 url-shortener/
-├── screenshots/         # Application screenshots for README
+├── screenshots/         
 │   └── dashboard.png
 ├── src/main/java/com/example/url_shortener/
-│   ├── controller/      # REST Endpoints (UrlController.java)
-│   ├── model/           # Database Entities (UrlMapping.java)
-│   ├── repository/      # JPA Repository (UrlRepository.java)
-│   ├── service/         # Business Logic (UrlService.java)
-│   └── util/            # Base62 Code Generator (Base62Encoder.java)
+│   ├── controller/     
+│   ├── model/           
+│   ├── repository/      
+│   ├── service/        
+│   └── util/            
 └── src/main/resources/
     ├── static/          # Web Interface (index.html)
     └── application.properties
