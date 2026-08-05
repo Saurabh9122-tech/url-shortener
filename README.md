@@ -6,7 +6,7 @@ A full-stack URL shortener application with click tracking and analytics built u
 
 ## 📸 Application Screenshots
 
-![URL Shortener Dashboard](./url-shortener/blob/main/url-shortener/Screenshot%202026-08-03%20155439.png
+![URL Shortener Dashboard](./url-shortener/Screenshot%202026-08-03%20155439.png
 )
 
 
